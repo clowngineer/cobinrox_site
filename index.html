@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- 
+   Robin Cox
+   WEBD-234
+   Franklin University
+   
+   Basic web page build using the Twitter Bootstrap V3.0.3 release and
+   specifically the "bootstrap.min.css" theme.
+   
+   Not all features are working. The main things that are not working are:
+   1) creation of negative space between the navigation bar and main content
+   
+-->
+ <html>
+    <head>
+         <meta charset="utf-8">
+         <!-- attempt to be included in search engines -->
+         <meta name="description" content="Software, Java, Other Odd Projects">
+         
+         <!-- for proper rendering and touch zooming -->
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         
+         <!-- remove any weird browser-imposed styles -->
+         <link rel="stylesheet" href="css/reset.css">
+         
+         <!-- set up some nice basic styles -->
+         <link rel="stylesheet" href="css/basic_style.css">
+
+         <!-- include bootstrap minimum style -->
+         <link rel="stylesheet" href="css/bootstrap.min.css">
+         
+         <!-- include overrides of the bootstrap styles for my brand -->
+         <link rel="stylesheet" href="css/brand.css">
+         <title>The Cobinrox Page</title>
+    </head>
+    <body class="my_brand">
+         <nav class="navbar-wrapper navbar-default my_brand" role="navigation">
+                <div class="container-fluid my_brand">
+                    <img src="images/sangres_w_text_lighter.jpg" class="img-responsive" alt="Responsive image" width="100%" height="100%" />
+                </div>
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <!-- this is supposed to be a nav button that occurs when the page is collapsed, but doesn't work -->
+                    <div class="container">
+                        <div class="navbar-header my_brand">
+                            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>                     
+                        </div>  
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a class="menu_item" href="#">Home</a></li>
+                            <li><a class="menu_item" href="#">Java Projects</a></li>
+                            <li><a class="menu_item" href="#">Web Projects</a></li>
+                            <li><a class="menu_item" href="#">Books</a></li>
+                            <li><a class="menu_item" href="#">Links</a></li>
+                            <li><a class="menu_item" href="#">Contact</a></li>
+                        </ul>
+                    </div> 
+                </div> <!-- end navbar container -->
+         </nav>
+ 
+        <!-- main content -->
+        <div class="container-fluid">
+             <!-- attempt to make negative space in Bootstrap -->
+             <div class="row-fluid">&nbsp;</div>
+             <div class="row-fluid">&nbsp;</div>
+             <div class="row-fluid my_brand_type">
+                    <div class="col-xs-1  my_fill_y">  </div>
+                    <div class="col-xs-5  my_fill_y">
+                        PROJECTS
+                        <ul>
+                            <li>Software Engineering</li>
+                            <li>Requirements Specifications</li>
+                            <li>Design</li>
+                            <li>Prototyping</li>
+                            <li>User Experience Enhancement</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-5  my_fill_y">
+                        TECHNOLOGIES
+                        <ul >
+                            <li>Java</li>
+                            <li>BASH Shell</li>
+                            <li>JSP</li>
+                            <li>J2EE</li>
+                            <li>WebLogic, JBoss, Apache</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-1  my_fill_y">  </div>
+             </div>
+        </div> <!-- end main content -->
+        
+        <!-- Javascript files -->
+        <script src="js/basic.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+     </body>
+</html>

@@ -1,0 +1,59 @@
+body {
+  font: 16px/1.5em Verdana, Arial, sans-serif; 
+  background-color: black;
+  }
+
+header {
+  padding-top: 2em;
+  padding-bottom: 5em; }
+
+h1 {
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 2em; }
+
+cite {
+  display: block;
+  margin-bottom: 3em;
+  font-style: italic;
+  font-size: 12px; }
+
+li {
+  list-style: disc;
+  list-style-position: inside; }
+
+p {
+  margin-top: 1.5em; }
+
+strong {
+  font-weight: bold; }
+
+fieldset {
+  border: 1px solid #dddddd;
+  margin: auto;
+  margin-bottom: 2em;
+  padding: 3em;
+  padding-top: 0; }
+  fieldset legend {
+    font-weight: bold; }
+  fieldset p {
+    margin-bottom: 1em; }
+
+ul#instructions li {
+  text-align: left; }
+
+#header_logo {
+  
+  
+  width: auto; /*or your image's width*/
+  height: 150px; /*or your image's height*/
+  margin: 0;
+  padding: 0;
+  
+  }  
+  
+#container {
+  width: 960px;
+  margin: auto; }
+
+

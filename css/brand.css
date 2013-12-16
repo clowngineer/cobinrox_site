@@ -1,0 +1,40 @@
+/*
+* Specific colors and styles for this site to
+* over-ride some of the annoying defaults of
+* the bootstrap-min.css file
+*/
+
+/* uncomment to help with debugging    
+* {
+border: 1px solid #FFFFFF !important;
+}
+*/
+.menu_item{} 
+.my_bw_gradient{
+background: -moz-linear-gradient(black, white); /* FF 3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(100%, #ffffff)); /* Safari 4+, Chrome 2+ */
+	background: -webkit-linear-gradient(black, white); /* Safari 5.1+, Chrome 10+ */
+	background: -o-linear-gradient(black, white); /* Opera 11.10 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff'); /* IE6 & IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff')"; /* IE8+ */
+	background: linear-gradient(black, white); /* the standard */
+	}
+.my_brand {
+background-color:black !important;
+}
+
+.my_brand_type{
+color:white;
+}
+
+.my_navbar{
+height:15px
+}
+.my_icon_pad{
+padding:2px;
+}
+.my_fill_y { 
+        min-height: 100%;
+        height: 100%;
+		height: 1000px;
+    }
