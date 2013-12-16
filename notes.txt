@@ -1,0 +1,10 @@
+In Git Shell:
+
+cd GitHub
+git init cobinrox_site
+add some files
+do some editing
+git add *
+git commit -m "made some changes"
+git push --set-upstream https://github.com/clowngineer/cobinrox_site.git
+ master
